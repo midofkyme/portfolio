@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.theBody{
+    height: 100vh;
+    width: 90%;
+    margin: auto;
+    font-family: "Ubuntu", sans-serif;
+}
+.first{
+
+   width: 100%; 
+   background-color: #e5e5e5;
+   border-radius: 10px;
+   margin: 5px;
+   display: flex;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.workExprince{
+
+   width: 100%; 
+   background-color: #e5e5e5;
+   border-radius: 10px;
+   margin: 5px;
+   display: flex;
+   flex-direction: column;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.certifcates{
+
+    width: 100%; 
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    margin: 5px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.skills{
+
+    width: 100%; 
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    margin: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+.projects{
+
+    width: 100%; 
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    margin: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+/*-------the images section Style ---------*/
+.theImg{
+    width: 20%;
+    margin:1%;
+    border-radius: 15px;
+    background-color: #fca311;
+    display: flex;
+    flex-direction: column;
+}
+.photos{
+    display: flex;
+    justify-content:space-around;
+}
+.photos img{
+    height: 70px;
+    width: 60px;
+    margin: 5px;
+    border: 3px solid #e5e5e5;
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+.photos img:hover{
+    border: 3px solid #14213d;
+    cursor: pointer;
+    height: 75px;
+    width: 65px;
+}
+.mainImg{
+    margin: auto;
+}
+.mainImg img{
+    height: 240px;
+    width: 200px;
+    border: 3px solid #e5e5e5;
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+.mainImg img:hover{
+    height: 250px;
+    width: 210px;
+}
+/*----------- the info section style -------------*/
+.hello{
+    margin: 5% 0 2% 0;
+    font-size: 26px;
+    font-weight: bold;
+}
+.info h2{
+    font-size: 52px;
+    color: #fca311;
+    font-weight: bold;
+}
+.info h2:hover{
+    font-size: 56px;
+    transition: 0.5s ease;
+}
+.mob{
+    font-size: 22px;
+}
+.mail{
+    margin: 5% 0 2% 0;
+}
+/*-------the exprince section Style ---------*/
+.tele{
+    display: flex;
+    flex-direction: column;
+    margin: 2% 0 0 2%;
+}
+.from{
+    margin: 2% 2% 0 0;
+}
+.exp{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sum{
+    margin: 1%;
+    font-size: 20px;
+}
+.expImg{
+    display: flex;
+    flex-direction: row;
+}
+.expImg img{
+    width: 280px;
+    height: 250px;
+    margin: auto;
+    border-radius: 10px;
+    border: 2px solid #fca311;
+}
+.expImg img:hover{
+    width: 300px;
+    height: 280px;
+    transition: 0.5s ease;
+}
+.awards{
+    margin: 2%;
+}
+.awards img{
+    width: 195px;
+    height: 160px;
+    margin: 0.2%;
+    border-radius: 5px;
+    border: 2px solid #fca311;
+}
+/*-------the certifcates section Style ---------*/
+.min{
+    padding-left: 40px;
+    padding-top: 10px;
+    font-size: 24px;
+}
+.sup{
+    font-size: 18px;
+    padding-left: 50px;
+    color: #fca311;
+}
+
+/*-------the skills section Style ---------*/
+.skills p{
+    padding-left: 40px;
+    padding-bottom: 10px;
+    font-size: 24px;   
+}
+/*-------the projects section Style ---------*/
+.theProj{
+    padding-left: 50px;
+}
+.theProj img{
+    width: 800px;
+    height: 400px;
+}
+.theProj img:hover{
+    width: 1000px;
+    height: 800px;
+    transition: 0.5s ease;
+}
+.theProj p{
+    margin-bottom: 25px;
+    font-size: 18px;
+}
